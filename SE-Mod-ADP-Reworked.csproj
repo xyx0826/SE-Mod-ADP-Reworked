@@ -1,0 +1,118 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69D9575A-8F6A-4673-990B-BF32C3E1C1F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SE_Mod_ADP_Reworked</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\80\9cb717236325a0b5b2ff3ea173cff4201e24c6" />
+    <None Include=".git\objects\83\8f3b28f7c99fccf3eeecd5075e4c9fc3f5c28c" />
+    <None Include=".git\objects\b1\ca856a4fcd428ce88f1f1893b89c5ee3766130" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\SE-Mod-ADP-Reworked\v15\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Data\BlockCategories.sbc" />
+    <None Include="Data\BlueprintClasses.sbc" />
+    <None Include="Data\Blueprints.sbc" />
+    <None Include="Data\CubeBlocks.sbc" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor.mwm" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor_Cons1.mwm" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor_Cons2.mwm" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor_Cons3.mwm" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor_Cons4.mwm" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor_Cons5.mwm" />
+    <None Include="Models\Cubes\Large\RemoteOreExtractor_LOD1.mwm" />
+    <None Include="modinfo.sbmi" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Textures\GUI\Icons\Buttons\component.dds" />
+    <Content Include="Textures\GUI\Icons\Buttons\component_highlight.dds" />
+    <Content Include="Textures\GUI\Icons\Cubes\RemoteExtractor.dds" />
+    <Content Include="Textures\GUI\Icons\filter_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\cobalt_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\gold_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\iron_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\magnesium_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\nickel_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\ore_H2O_ice.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\platinum_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\silicon_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\silver_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\Ingot\uranium_ingot.dds" />
+    <Content Include="Textures\Models\Cubes\metal_add.dds" />
+    <Content Include="Textures\Models\Cubes\metal_cm.dds" />
+    <Content Include="Textures\Models\Cubes\metal_ng.dds" />
+    <Content Include="thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Scripts\1\DisableAlim.cs" />
+    <Compile Include="Data\Scripts\1\OilRigAlim.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

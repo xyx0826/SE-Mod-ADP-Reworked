@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>GravelConversions</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\Buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  
+  <BlueprintClassEntries>
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToIron_150" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToCobalt_350" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToNickel_350" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToSilicon_620" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToMagnesium_2700" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToUranium_20000" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToSilver_28000" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToGold_52000" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToPlatinum_75000" />
+	<Entry Class="GravelConversions" BlueprintSubtypeId="ToIce_420" />
+
+  </BlueprintClassEntries>
+</Definitions>
